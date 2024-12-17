@@ -3,9 +3,7 @@
 const randomNumber = Math.floor(Math.random() * 100) + 1;
 let guess = null; // The user's guess
 let attempts = 0; // Counter for attempts
-console.log("Welcome to the 'Guess the Number' game!");
-console.log("Try to guess the number I am thinking of between 1 and 100.");
-console.log("I will tell you if your guess is too high, too low, or correct.");
+console.log("guess the number, you have as many tries as necessary")
 while (guess !== randomNumber) {
     // Prompt user for a guess
     guess = prompt("Enter your guess (1-100):");
